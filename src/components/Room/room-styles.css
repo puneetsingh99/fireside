@@ -1,0 +1,113 @@
+.room-details {
+  border-bottom: solid 1px var(--medium-gray);
+  padding: 1rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: var(--dark-medium-gray);
+}
+
+.room-name {
+  color: var(--light-gray);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 550;
+}
+
+.room-author {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--light-gray);
+}
+.with {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--medium-light-gray);
+}
+
+.modal-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.hide-modal {
+  display: none;
+}
+
+.room-form {
+  position: relative;
+  padding: 2rem;
+  max-width: 500px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.new-room-form-title {
+  font-size: 1.5rem;
+}
+
+.new-room-input-flex {
+  display: flex;
+}
+
+.text-input-room-desc {
+  height: 6rem;
+}
+
+.btn-new-room {
+  width: max-content;
+}
+
+.create-room-buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btn-cancel-room {
+  width: max-content;
+  background-color: inherit;
+  margin-left: 2rem;
+  text-decoration: underline;
+}
+
+.btn-cancel-room:hover {
+  background-color: inherit;
+}
+
+.btn-cancel-room:focus {
+  box-shadow: none;
+}
+
+.form-subtitle {
+  color: var(--medium-light-gray);
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+
+.cancel-modal {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  align-self: flex-end;
+  cursor: pointer;
+  color: var(--light-gray);
+}
+
+@media (max-width: 640px) {
+  .room-form {
+    max-width: 400px;
+    margin: auto;
+  }
+}

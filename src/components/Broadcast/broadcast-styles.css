@@ -1,0 +1,145 @@
+.broadcast-info {
+  background-color: var(--dark-medium-gray);
+  color: var(--light-gray);
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.broadcast-info:hover {
+  background-color: var(--medium-gray);
+}
+
+.flex {
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.live-indicator {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+  background-color: var(--accent);
+}
+
+.total-attendees {
+  display: flex;
+  align-items: center;
+}
+
+.broadcast-list {
+  list-style: none;
+  overflow: scroll;
+}
+
+.broadcast-name,
+.total-attendees {
+  font-weight: 550;
+  color: var(--light-gray);
+  font-size: 0.9rem;
+}
+
+.create-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  scrollbar-width: none;
+}
+
+.your-feed {
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  align-self: center;
+  color: var(--light-gray);
+}
+
+.btn-create-room {
+  width: max-content;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 0rem;
+}
+
+.broadcast-list {
+  height: 65vh;
+}
+
+.broadcast-info-container {
+  margin-bottom: 1rem;
+}
+
+.broadcast-participants {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  position: relative;
+}
+
+.broadcast-participants__name {
+  font-size: 0.9rem;
+  color: var(--medium-light-gray);
+  display: flex;
+  align-items: center;
+  margin-left: 0.75rem;
+}
+
+/* broadcast view styles */
+.broadcast {
+  height: 80vh;
+  text-align: left;
+  border-radius: 5px;
+  position: relative;
+  background-color: var(--dark-medium-gray);
+}
+
+.broadcasters-detail {
+  padding: 1rem;
+}
+
+.saved-broadcast {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 1.5rem 1rem;
+  border-top: solid 1px var(--medium-gray);
+  border-bottom: solid 1px var(--medium-gray);
+  color: var(--light-gray);
+  cursor: pointer;
+  overflow-wrap: break-word;
+}
+
+.saved-broadcast:hover {
+  background-color: var(--medium-gray);
+}
+
+@media (max-width: 640px) {
+  .broadcast-list {
+    padding: 0rem 1rem;
+  }
+
+  .create-room {
+    padding-right: 1rem;
+  }
+
+  .broadcast {
+    width: 95%;
+    height: 75vh;
+    margin: 1rem auto;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
+}

@@ -1,0 +1,18 @@
+.footer {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+}
+.footer a {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: var(--light-gray);
+}
+
+@media (max-width: 640px) {
+  .footer {
+    width: 80%;
+  }
+}

@@ -1,0 +1,11 @@
+export { LogoSvg } from "./svg/LogoSvg";
+export { GithubSvg } from "./svg/GithubSvg";
+export { InstagramSvg } from "./svg/InstagramSvg";
+export { TwitterSvg } from "./svg/TwitterSvg";
+export { LinkedinSvg } from "./svg/LinkedinSvg";
+export { SearchSvg } from "./svg/SearchSvg";
+export { CrossSvg } from "./svg/CrossSvg";
+export { RequestSvg } from "./svg/RequestSvg";
+export { ShareSvg } from "./svg/ShareSvg";
+export { SaveSvg } from "./svg/SaveSvg";
+export { PeopleSvg } from "./svg/PeopleSvg";

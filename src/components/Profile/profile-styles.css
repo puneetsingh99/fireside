@@ -1,0 +1,103 @@
+.profile-detail {
+  height: 28vh;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.saved-broadcast-detail {
+  height: 47vh;
+  color: var(--light-gray);
+  font-weight: 550;
+  font-size: 1.125rem;
+}
+
+.saved-broadcast-detail,
+.profile-detail {
+  border-radius: 5px;
+  background-color: var(--dark-medium-gray);
+  text-align: left;
+}
+
+.saved-broadcasts {
+  padding: 1rem;
+}
+
+.user-bio {
+  overflow: hidden;
+  height: 50%;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--light-gray);
+}
+
+.no-of-saved-broadcasts {
+  margin-left: 1rem;
+  padding: 0.3rem;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  background-color: var(--medium-gray);
+}
+
+.saved-broadcasts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px var(--medium-gray);
+}
+
+.saved-broadcast-list {
+  list-style: none;
+  /* padding: 2rem 0rem; */
+}
+
+.saved-broadcast-list-container {
+  height: 33vh;
+  overflow: scroll;
+}
+
+.saved-broadcast-list li {
+  max-width: 100%;
+}
+
+.scroll-padding {
+  padding: 1rem;
+}
+
+.profile-data {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.user-details {
+  margin-left: 0.5rem;
+}
+.user-name {
+  font-size: 1.125rem;
+  font-weight: 550;
+  color: var(--light-gray);
+  margin-bottom: 0.5rem;
+}
+
+.follower-count,
+.following-count {
+  font-weight: 550;
+  color: var(--light-gray);
+  font-size: 0.9rem;
+}
+
+.followers,
+.following {
+  color: var(--medium-light-gray);
+  margin-right: 1rem;
+}
+
+.stats {
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .saved-broadcast-detail,
+  .profile-detail {
+    max-width: 95%;
+    margin: 1rem auto;
+  }
+}

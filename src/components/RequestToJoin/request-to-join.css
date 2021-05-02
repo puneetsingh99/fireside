@@ -1,0 +1,88 @@
+.request-to-join {
+  height: 80vh;
+  background-color: var(--dark-medium-gray);
+  border-radius: 5px;
+}
+
+.request-to-join-list-container {
+  padding: 1rem;
+  height: 65vh;
+  overflow: scroll;
+}
+
+.request-to-join-list {
+  list-style: none;
+  color: var(--light-gray);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 1rem;
+  max-width: 100%;
+}
+
+.req-to-join-author-name {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+.req-to-join-card-author-picture,
+.req-to-join-author-name {
+  margin-bottom: 0.5rem;
+}
+
+.scroll-padding-manager {
+  padding: 1rem;
+  border-top: solid 1px var(--medium-gray);
+}
+
+.btn-small {
+  padding: 0.6em;
+  width: max-content;
+  background-color: inherit;
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin-bottom: 0rem;
+}
+
+.btn-small + .btn-small {
+  margin-left: 0.5rem;
+}
+
+.btn-small:hover {
+  background-color: var(--dark-medium-gray);
+}
+
+.btn-small:focus {
+  box-shadow: none;
+}
+
+.btn-deny {
+  color: var(--medium-light-gray);
+}
+
+.req-to-join-card {
+  padding: 0.75rem;
+  border-radius: 10px;
+  max-width: max-content;
+  background-color: var(--dark-gray);
+}
+
+@media (max-width: 640px) {
+  .request-to-join {
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .req-to-join-card {
+    font-size: 1rem;
+  }
+
+  .req-to-join-author-name {
+    font-size: 1rem;
+  }
+
+  .btn-small {
+    font-size: 1rem;
+  }
+}

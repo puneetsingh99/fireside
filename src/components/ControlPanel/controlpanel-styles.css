@@ -1,0 +1,60 @@
+.btn-leave {
+  width: max-content;
+  margin-bottom: 0rem;
+  align-self: center;
+  background-color: var(--dark-gray);
+}
+
+.btn-leave:hover {
+  background-color: var(--medium-gray-2);
+}
+
+.btn-leave:focus {
+  box-shadow: none;
+}
+
+.control-panel {
+  position: absolute;
+  width: 100%;
+  bottom: 0rem;
+  padding: 1rem;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: var(--medium-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-panel-actions {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.control-panel-menu-bar {
+  display: flex;
+  height: 100%;
+  min-width: 50%;
+}
+
+.control-panel-menu {
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-leave {
+  padding: 0.9rem 1.5rem;
+}
+.control-panel-menu:hover {
+  background-color: var(--medium-gray-2);
+}

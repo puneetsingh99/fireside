@@ -1,0 +1,35 @@
+.message-container {
+  display: flex;
+  padding: 0.75rem;
+  border-radius: 10px;
+  background-color: var(--dark-gray);
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.author-picture {
+  margin-right: 0.5rem;
+}
+
+.message-details {
+  word-wrap: break-word;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 1rem;
+  /* line-height: 1.25rem; */
+  margin-bottom: 0.25rem;
+}
+
+.message {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--medium-light-gray2);
+}
+
+.message-width {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

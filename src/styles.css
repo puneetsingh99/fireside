@@ -1,0 +1,72 @@
+/* @import url("https://spaceuicss.netlify.app/main.css"); */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-400);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--medium-gray);
+}
+
+:root {
+  --dark-gray: #111827; /*gray 900*/
+  --dark-medium-gray: #1f2937; /*gray 800*/
+  --medium-gray: #374151; /*gray 700*/
+  --medium-gray-2: #4b5563; /*gray 600*/
+  --medium-light-gray: #9ca3af; /*gray 400*/
+  --medium-light-gray2: #d1d5db; /*gray 400*/
+  --light-gray: #e5e7eb; /*gray 200*/
+  --accent-light: #f9a8d4; /*300*/
+
+  --accent: #f472b6; /*400*/
+  --accent-dark: #ec4899; /*500*/
+  --light-green: #34d399;
+
+  --font-sm: 0.8rem;
+  --font-m: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+  --font-2xl: 1.75rem;
+  --font-3xl: 2rem;
+}
+
+::placeholder {
+  color: var(--medium-light-gray);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--medium-light-gray);
+}
+
+::-ms-input-placeholder {
+  color: var(--medium-light-gray);
+}
+
+body {
+  background-color: var(--dark-gray);
+}

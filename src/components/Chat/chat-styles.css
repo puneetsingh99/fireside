@@ -1,0 +1,11 @@
+.chat {
+  padding: 1rem;
+  height: 67%;
+  overflow: scroll;
+}
+
+.chat-messages {
+  list-style: none;
+  font-size: 1rem;
+  color: var(--light-gray);
+}

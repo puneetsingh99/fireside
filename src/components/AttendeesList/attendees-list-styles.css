@@ -1,0 +1,15 @@
+.attendees-container {
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.attendees-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.attendees-list li {
+  margin: 0.5rem;
+}
