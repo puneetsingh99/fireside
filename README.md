@@ -18,6 +18,6 @@ Upon opening either click on any one of live feeds of broadcasts to Join it or c
  ## Tech Stack used
  1. Firebase
  2. Reactjs
- 3. Pure javascript
+ 3. Pure CSS
 
 ### Note: Could not complete all the functionalities only partial where UI can be navigated to get an understanding of the UI. Dummy data is used to emulate real production release variant. Check back a couple of days later to see the completed version.
